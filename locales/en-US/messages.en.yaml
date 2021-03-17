@@ -1,94 +1,93 @@
-devtools:
-  exts_to_install: '%{parameter} extension(s) to install.'
-  ext_succesfully_installed: '> Extension %{parameter} succesfully installed.'
-  installation_done_console: '> Installation done.'
-  fatal_error_occured_during_the_installation_process: 'A fatal error occured during the installation process.'
-  actions: 'Actions'
-  adjustable_on_x-axis: 'Adjustable on x-axis'
-  adjustable_on_y-axis: 'Adjustable on y-axis'
-  apply: 'Apply'
-  archive_size_must_be_lesser_than: 'Archive size must be lesser than :'
-  before_you_start_working_with_the_tao_icon_font_make_sure_that_this_ext_is_in_sync_with_the: 'Before you start working with the TAO icon font make sure that this extension is in sync with the %{parameter}.'
-  cache_has_been_emptied: 'Cache has been emptied'
-  controller_viewer: 'Controller Viewer'
-  could_not_extract_archive: 'Could not extract archive'
-  could_not_open_archive: 'Could not open archive'
-  create_100_global_managers: 'Create 100 global managers'
-  create_100_qti_items: 'Create 100 qti Items'
-  create_1000_test_takers: 'Create 1000 test takers'
-  create_a_new_ext: 'Create a new Extension'
-  create_new: 'Create new'
-  create_new_ext: 'Create new extension'
-  css_compilation_failed: 'CSS compilation failed'
-  description: 'Description'
-  disable: 'Disable'
-  do_you_wish_to_install_the_following_exts: 'Do you wish to install the following extension(s):\n'
-  empty_cache: 'Empty Cache'
-  enable: 'Enable'
-  existing_icons: 'Existing Icons'
-  ext_created_before_you_install_the_ext_make_sure_you_add_it_to_vendorcomposerautoloadpsr4php: 'Extension %{parameter} created. Before you install the extension make sure you add it to /vendor/composer/autoload_psr4.php'
-  ext_can_be_created: 'Extension can be created'
-  ext_created: 'Extension created'
-  exts_manager: 'Extensions manager'
-  failed_to_copy: 'Failed to copy'
-  file_upload_failed: 'File upload failed'
-  font_incomplete!_is_the_ext_in_sync_with_git_have_you_removed_any_glyphs: 'Font incomplete! Is the extension in sync with git? Have you removed any glyphs?'
-  generate: 'Generate'
-  generate_a_skeleton_for_a_student_tool: 'Generate a skeleton for a student tool'
-  generating_cache: 'Generating cache...'
-  global_managers_generated_in_class: 'Global managers generated in class %{parameter}'
-  if_you_need_instructions_please_follow_the_tutorial_in_the: 'If you need instructions please follow the tutorial in the %{parameter}.'
-  installation_done: 'Installation done.'
-  installation: 'Installation...'
-  installed: 'Installed'
-  installing_ext: 'Installing extension %{parameter}...'
-  item_packages: 'Item Packages'
-  items_generated_in_class: 'Items generated in class %{parameter}'
-  items_library: 'Items library'
-  javascripts_have_been_compiled: 'Javascripts have been compiled'
-  key_checker: 'Key checker'
-  movable: 'Movable'
-  no: 'No'
-  no_exts_available: 'No extensions available.'
-  no_file_uploaded: 'No file uploaded'
-  nothing_to_install_!: 'Nothing to install !'
-  package: 'Package'
-  prefix: 'Prefix'
-  preparing_installation: 'Preparing installation...'
-  regenerate_locales_files: 'Regenerate locales files'
-  reindex_all_resources: 'Reindex all resources'
-  reindexed_resources: 'Reindexed %{parameter} resources'
-  requires: 'Requires'
-  restore: 'Restore'
-  restrict_roles: 'Restrict Roles'
-  restricted_session: 'Restricted session'
-  results: 'Results'
-  rotatable: 'Rotatable'
-  scripts: 'Scripts'
-  send_a_message: 'Send a message'
-  send_a_message_to_yourself: 'Send a message to yourself'
-  settings: 'Settings'
-  shortcuts: 'Shortcuts'
-  student_tool_generator: 'Student Tool Generator'
-  system_settings: 'System Settings'
-  tao_icon_font: 'TAO Icon Font'
-  testtakers_generated_in_class: 'Testtakers generated in class %{parameter}'
-  the_tao_icon_font_has_been_updated: 'The TAO icon font has been updated'
-  tool_description: 'Tool description'
-  tool_name: 'Tool name'
-  tools: 'Tools'
-  translation_files_have_been_regenerated: 'Translation files have been regenerated'
-  transparent_canvas: 'Transparent canvas'
-  unable_to_create_ext_please_consult_log: 'Unable to create extension %{parameter}, please consult log.'
-  unable_to_move_uploaded_file: 'Unable to move uploaded file'
-  unable_to_read_the_file: 'Unable to read the file :'
-  uninstall: 'Uninstall'
-  update_tao_icon_font: 'Update Tao Icon Font'
-  upload_the_zip_file_created_on_below: 'Upload the zip file created on %{parameter} below:'
-  user_settings: 'User Settings'
-  version: 'Version'
-  view: 'View'
-  yes: 'Yes'
-  you_are_currently_restricted_to_the_following_roles: 'You are currently restricted to the following roles'
-  you_need_to_change_the_font_name_to_tao_in_the_icomoon_preferences: 'You need to change the font name to "tao" in the icomoon preferences'
-  you_will_need_a_copy_of_to_get_started: 'You will need a copy of %{parameter} to get started.'
+taoDevTools:
+  exts_to_install: "%{parameter} extension(s) to install."
+  extension_succesfully_installed: "> Extension %{parameter} succesfully installed."
+  installation_done: "Installation done."
+  a_fatal_error_occured_during_the_installation_process: "A fatal error occured during the installation process."
+  actions: "Actions"
+  adjustable_on_x-axis: "Adjustable on x-axis"
+  adjustable_on_y-axis: "Adjustable on y-axis"
+  apply: "Apply"
+  archive_size_must_be_lesser_than: "Archive size must be lesser than : "
+  before_you_start_working_with_the_tao_icon_font_make_sure_that_this_ext_is_in_sync_with_the: "Before you start working with the TAO icon font make sure that this extension is in sync with the %{parameter}."
+  cache_has_been_emptied: "Cache has been emptied"
+  controller_viewer: "Controller Viewer"
+  could_not_extract_archive: "Could not extract archive"
+  could_not_open_archive: "Could not open archive"
+  create_100_global_managers: "Create 100 global managers"
+  create_100_qti_items: "Create 100 qti Items"
+  create_1000_test_takers: "Create 1000 test takers"
+  create_a_new_extension: "Create a new Extension"
+  create_new: "Create new"
+  create_new_ext: "Create new extension"
+  css_compilation_failed: "CSS compilation failed"
+  description: "Description"
+  disable: "Disable"
+  do_you_wish_to_install_the_following_extsn: "Do you wish to install the following extension(s):\n"
+  empty_cache: "Empty Cache"
+  enable: "Enable"
+  existing_icons: "Existing Icons"
+  extension_created_before_you_install_the_ext_make_sure_you_add_it_to_vendorcomposerautoloadpsr4php: "Extension %{parameter} created. Before you install the extension make sure you add it to /vendor/composer/autoload_psr4.php"
+  extension_can_be_created: "Extension can be created"
+  extension_created: "Extension created"
+  extensions_manager: "Extensions manager"
+  failed_to_copy: "Failed to copy "
+  file_upload_failed: "File upload failed"
+  font_incomplete_is_the_ext_in_sync_with_git_have_you_removed_any_glyphs: "Font incomplete! Is the extension in sync with git? Have you removed any glyphs?"
+  generate: "Generate"
+  generate_a_skeleton_for_a_student_tool: "Generate a skeleton for a student tool"
+  generating_cache: "Generating cache..."
+  global_managers_generated_in_class: "Global managers generated in class %{parameter}"
+  if_you_need_instructions_please_follow_the_tutorial_in_the: "If you need instructions please follow the tutorial in the %{parameter}."
+  installation: "Installation..."
+  installed: "Installed"
+  installing_ext: "Installing extension %{parameter}..."
+  item_packages: "Item Packages"
+  items_generated_in_class: "Items generated in class %{parameter}"
+  items_library: "Items library"
+  javascripts_have_been_compiled: "Javascripts have been compiled"
+  key_checker: "Key checker"
+  movable: "Movable"
+  no: "No"
+  no_exts_available: "No extensions available."
+  no_file_uploaded: "No file uploaded"
+  nothing_to_install: "Nothing to install !"
+  package: "Package"
+  prefix: "Prefix"
+  preparing_installation: "Preparing installation..."
+  regenerate_locales_files: "Regenerate locales files"
+  reindex_all_resources: "Reindex all resources"
+  reindexed_resources: "Reindexed %{parameter} resources"
+  requires: "Requires"
+  restore: "Restore"
+  restrict_roles: "Restrict Roles"
+  restricted_session: "Restricted session"
+  results: "Results"
+  rotatable: "Rotatable"
+  scripts: "Scripts"
+  send_a_message: "Send a message"
+  send_a_message_to_yourself: "Send a message to yourself"
+  settings: "Settings"
+  shortcuts: "Shortcuts"
+  student_tool_generator: "Student Tool Generator"
+  system_settings: "System Settings"
+  tao_icon_font: "TAO Icon Font"
+  testtakers_generated_in_class: "Testtakers generated in class %{parameter}"
+  the_tao_icon_font_has_been_updated: "The TAO icon font has been updated"
+  tool_description: "Tool description"
+  tool_name: "Tool name"
+  tools: "Tools"
+  translation_files_have_been_regenerated: "Translation files have been regenerated"
+  transparent_canvas: "Transparent canvas"
+  unable_to_create_ext_please_consult_log: "Unable to create extension %{parameter}, please consult log."
+  unable_to_move_uploaded_file: "Unable to move uploaded file"
+  unable_to_read_the_file: "Unable to read the file : "
+  uninstall: "Uninstall"
+  update_tao_icon_font: "Update Tao Icon Font"
+  upload_the_zip_file_created_on_below: "Upload the zip file created on %{parameter} below:"
+  user_settings: "User Settings"
+  version: "Version"
+  view: "View"
+  yes: "Yes"
+  you_are_currently_restricted_to_the_following_roles: "You are currently restricted to the following roles"
+  you_need_to_change_the_font_name_to_tao_in_the_icomoon_preferences: "You need to change the font name to \"tao\" in the icomoon preferences"
+  you_will_need_a_copy_of_to_get_started: "You will need a copy of %{parameter} to get started."
