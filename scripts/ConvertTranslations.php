@@ -23,7 +23,6 @@ declare(strict_types=1);
 namespace oat\taoDevTools\scripts;
 
 use common_exception_Error;
-use common_report_Report;
 use oat\oatbox\extension\script\ScriptAction;
 use oat\oatbox\reporting\Report;
 
@@ -32,7 +31,7 @@ use oat\oatbox\reporting\Report;
  *
  * @package oat\taoDevTools\scripts
  *
- * @example php index.php "oat\taoDevTools\scripts\ConvertTranslations" --extension=taoDevTools --legacyFile taoDevTools/locales/en-US/messages.po --newFile taoDevTools/locales/messages.en.yaml
+ * @example php index.php "oat\taoDevTools\scripts\ConvertTranslations" --extension taoDevTools --legacyFile taoDevTools/locales/en-US/messages.po --newFile taoDevTools/locales/messages.en.yaml
  */
 class ConvertTranslations extends ScriptAction
 {
@@ -72,7 +71,7 @@ class ConvertTranslations extends ScriptAction
     }
 
     /**
-     * @return common_report_Report|Report
+     * @return Report
      * @throws common_exception_Error
      */
     protected function run()
@@ -121,7 +120,6 @@ class ConvertTranslations extends ScriptAction
         }
 
         $fp = fopen($this->getOption('newFile'), "w+");
-
         fwrite($fp, $this->getOption('extension') . ':' . PHP_EOL);
 
         foreach ($arrayTranslates as $key => $value) {
@@ -130,5 +128,4 @@ class ConvertTranslations extends ScriptAction
 
         return new Report(Report::TYPE_SUCCESS, 'Translations successfully converted.');
     }
-
 }
